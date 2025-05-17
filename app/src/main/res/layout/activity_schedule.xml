@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Class Schedule"
+            android:textSize="24sp"
+            android:textStyle="bold"
+
+            android:layout_marginBottom="4dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4th Semester\n2024-25"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            android:layout_marginBottom="16dp"
+            android:gravity="center" />
+
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+            <TableLayout
+                android:id="@+id/scheduleTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1">
+
+
+                <TableRow>
+                    <TextView
+                        android:text="DAY"
+                        android:gravity="center"
+                        android:padding="8dp" />
+                    <TextView
+                        android:text="09:15-\n10:15"
+                        android:gravity="center"
+                        android:padding="8dp" />
+                    <TextView
+                        android:text="10:20-\n11:20"
+                        android:gravity="center"
+                        android:padding="8dp" />
+                    <TextView
+                        android:text="11:25-\n12:25"
+                        android:gravity="center"
+                        android:padding="8dp" />
+                    <TextView
+                        android:text="12:30-\n01:30"
+                        android:gravity="center"
+                        android:padding="8dp" />
+                    <TextView
+                        android:text="02:00-\n02:55"
+                        android:gravity="center"
+                        android:padding="8dp" />
+                    <TextView
+                        android:text="03:00-\n03:55"
+                        android:gravity="center"
+                        android:padding="8dp" />
+                    <TextView
+                        android:text="04:00-\n04:55"
+                        android:gravity="center"
+                        android:padding="8dp" />
+                </TableRow>
+
+
+                <TableRow>
+                    <TextView android:text="SUN" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="DP\n[AR]" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="DBMS\n[PC]" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="DC\n[ZR]" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="CAO\n[JIB]" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="" android:gravity="center" android:padding="8dp" />
+                </TableRow>
+
+
+                <TableRow>
+                    <TextView android:text="MON" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="" android:gravity="center" android:padding="8dp" />
+                </TableRow>
+
+
+                <TableRow>
+                    <TextView android:text="TUE" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="DC LAB\n[ZR]" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="DC LAB\n[ZR]" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="DC\n[ZR]" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="MATH\n[MA]" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="" android:gravity="center" android:padding="8dp" />
+                </TableRow>
+
+                <!-- Wednesday Row -->
+                <TableRow>
+                    <TextView android:text="WED" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="CAO\n[JIB]" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="DP\n[AR]" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="DC\n[ZR]" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="MATH\n[MA]" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="DP LAB\n[AR]" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="" android:gravity="center" android:padding="8dp" />
+                </TableRow>
+
+
+                <TableRow>
+                    <TextView android:text="THU" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="MATH\n[MA]" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="DBMS\n[PC]" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="DBMS LAB\n[PC]" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="DBMS LAB\n[PC]" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="" android:gravity="center" android:padding="8dp" />
+                    <TextView android:text="" android:gravity="center" android:padding="8dp" />
+                </TableRow>
+
+            </TableLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>
